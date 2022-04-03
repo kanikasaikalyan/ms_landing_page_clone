@@ -460,17 +460,21 @@ footer ul li:hover{
 
     footer{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
         background-color: bisque;
-    
-        justify-content: space-around;
-        padding: 1em 1em;
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 1em 0.5em;
     }
     footer div{
-        margin: 0 1em;
+        margin: 1em 0.5em;
+        max-width: 100%;
+        box-sizing: border-box;
     }
     footer ul{
         list-style-type: none;
+        width: 100%;
+        box-sizing: border-box;
     }
     footer ul li{
         font-size: 0.8em;
