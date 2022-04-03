@@ -281,6 +281,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     background-color: bisque;
+    width:100%;
 
     justify-content: space-around;
     padding: 1.5em 0.5em;
